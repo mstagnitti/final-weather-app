@@ -1,0 +1,103 @@
+body {
+  background-color: #f9f7fe;
+}
+
+form {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f9f7fe;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: 800;
+  margin: 0;
+}
+main {
+  padding: 40px 20px 20px;
+  border-bottom: 1px solid #f9f7fe;
+}
+
+footer {
+  text-align: center;
+  padding-top: 15px;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 13px;
+}
+a {
+  color: #885df1;
+}
+
+#city-input {
+  border: none;
+  background-color: #f9f7fe;
+  padding: 20px;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  border-radius: 6px;
+  width: 75%;
+}
+
+#submit-search {
+  border: none;
+  background-color: #885df1;
+  padding: 20px;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  border-radius: 5px;
+  width: 20%;
+  line-height: 1;
+  color: white;
+  margin-left: 5px;
+}
+
+.container {
+  background: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-summary {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.humidity-wind {
+  color: #f65282;
+  font-weight: bold;
+}
+
+.weather-icon {
+  position: relative;
+  top: -50px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.temperature {
+  position: relative;
+  top: -30px;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.unit {
+  font-size: 28px;
+  position: relative;
+  top: -65px;
+}

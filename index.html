@@ -3,48 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Smooch+Sans:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Monique's Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input
-          type="search"
-          placeholder="Enter a city..."
-          required
-          id="city-input"
-        />
-        <input type="submit" value="Search" id="submit-search" />
-      </form>
-    </header>
-    <main>
-      <h1>Current City</h1>
-      <div class="city-summary">
-        <p>
-          <span class="date">day and time</span>,
-          <span class="weather-condition">weather conditions</span>
-        </p>
-        <p class="humidity-wind">
-          Humidity, <span class="humidity">%</span> Wind
-          <span class="wind">km/h</span>
-        </p>
-      </div>
-      <div class="current-temperature">
-        <span class="weather-icon">icon</span>
-        <span class="temperature">XX</span>
-        <span class="unit">°C</span>
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="#https://github.com/mstagnitti">Monique Stagnitti</a> and is
-      <a href="https://github.com/mstagnitti/final-weather-app">
-        open-sourced on GitHUB</a
-      >
-      and
-      <a href="https://moniques-weather-forecast-project.netlify.app/"
-        >hosted on Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            id="city-input"
+          />
+          <input type="submit" value="Search" id="submit-search" />
+        </form>
+      </header>
+      <main>
+        <h1>Current City</h1>
+        <div class="weather-data">
+          <div class="weather-summary">
+            <p>
+              <span class="date">day and time</span>,
+              <span class="weather-condition">weather conditions</span>
+              <br />
+              Humidity, <span class="humidity-wind" id="humidity">%</span> Wind
+              <span class="humidity-wind" id="wind">km/h</span>
+            </p>
+          </div>
+          <div>
+            <span class="weather-icon">icon</span>
+            <span class="temperature">XX</span>
+            <span class="unit">°C</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="#https://github.com/mstagnitti" target="_blank"
+          >Monique Stagnitti</a
+        >
+        and is
+        <a
+          href="https://github.com/mstagnitti/final-weather-app"
+          target="_blank"
+        >
+          open-sourced on GitHUB</a
+        >
+        and
+        <a
+          href="https://moniques-weather-forecast-project.netlify.app/"
+          target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
