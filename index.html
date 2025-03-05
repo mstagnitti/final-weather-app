@@ -15,7 +15,7 @@
   <body>
     <div class="container">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
@@ -26,11 +26,12 @@
         </form>
       </header>
       <main>
-        <h1>Current City</h1>
+        <h1 id="city">Current City</h1>
         <div class="weather-data">
           <div class="weather-summary">
             <p>
-              <span class="date">day and time</span>,
+              <span class="date" id="date">day</span
+              ><span id="time"> and time</span>,
               <span class="weather-condition">weather conditions</span>
               <br />
               Humidity, <span class="humidity-wind" id="humidity">%</span> Wind
@@ -64,5 +65,6 @@
         >
       </footer>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
