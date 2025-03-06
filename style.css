@@ -84,20 +84,20 @@ a {
 
 .weather-icon {
   position: relative;
-  top: -50px;
-  font-size: 40px;
-  margin-right: 10px;
+  top: -25px;
+  max-width: 65px;
 }
 
 .temperature {
   position: relative;
   top: -30px;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: bold;
+  margin: none;
 }
 
 .unit {
   font-size: 28px;
   position: relative;
-  top: -65px;
+  top: -60px;
 }
