@@ -105,6 +105,8 @@ a {
 .weather-forecast {
   display: flex;
   justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 .weekly-forecast-day {
   text-align: center;
@@ -115,8 +117,9 @@ a {
 }
 
 .weekly-forecast-icon {
-  text-align: center;
-  font-size: 28px;
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
 }
 
 .weekly-forecast-temperatures {
