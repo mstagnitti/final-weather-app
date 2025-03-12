@@ -101,3 +101,37 @@ a {
   position: relative;
   top: -60px;
 }
+
+.weekly-forecast {
+  display: flex;
+  justify-content: space-around;
+}
+.weekly-forecast-day {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.weekly-forecast-icon {
+  text-align: center;
+  font-size: 28px;
+}
+
+.weekly-forecast-temperatures {
+  text-align: center;
+  color: #f65282;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.weekly-forecast-temp-low {
+  padding: 0 5px;
+}
+
+.weekly-forecast-temp-high {
+  padding: 0 5px;
+}
