@@ -59,9 +59,35 @@ function newCity(event) {
   searchCity(searchInput.value);
 }
 
+function displayForecast() {
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+      <div class="weekly-forecast">
+            <div class="weekly-forecast-day">${day}</div>
+            <div class="weekly-forecast-icon">🌥️</div>
+            <div class="weekly-forecast-temperatures">
+              <div class="weekly-forecast-temp-high">
+                <strong>XX°</strong>
+              </div>
+              <div class="weekly-forecast-temp-low">
+                XX° 
+              </div>
+              </div>
+              </div>
+              `;
+  });
+
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
+}
+
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", newCity);
 
 searchCity("Melbourne");
-
-let day = document.querySelector("#date");
+displayForecast();

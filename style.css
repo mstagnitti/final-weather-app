@@ -102,7 +102,7 @@ a {
   top: -60px;
 }
 
-.weekly-forecast {
+.weather-forecast {
   display: flex;
   justify-content: space-around;
 }
